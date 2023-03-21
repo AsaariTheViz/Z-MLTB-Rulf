@@ -68,7 +68,7 @@ try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'h-code'
+    UPSTREAM_BRANCH = 'code'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
