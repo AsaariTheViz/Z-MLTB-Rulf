@@ -63,12 +63,12 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = "https://github.com/AnshumanPM/Z-Mirror"
+    UPSTREAM_REPO = "https://github.com/VigaRepo/z-mirror-new"
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except:
-    UPSTREAM_BRANCH = 'code'
+    UPSTREAM_BRANCH = 'h-code'
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
