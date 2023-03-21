@@ -1,4 +1,4 @@
-FROM anshumanpm2006/mltb:dev
+FROM vigabots/z-mirror:heroku
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
